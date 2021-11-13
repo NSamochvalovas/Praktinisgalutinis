@@ -1,0 +1,88 @@
+
+
+.pricing-block{
+  width:100%;
+  background:#6696E2;
+  height:700px;
+}
+.pricing-top{
+  height:50px;
+}
+.pricing-block h2{
+  font-size:36px;
+  color:white;
+  text-align:center;
+}
+.pricing-line{
+  width:200px;
+  height:2px;
+  background:#41D395;
+  margin:auto;
+  margin-top:20px;
+}
+.pricing-block p{
+  color:white;
+  text-align:center;
+}
+.pricing-line-p-top{
+  margin-top:20px;
+}
+.pricing-block-tabs{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-block-tabs-content{
+  width:20%;
+  margin:0 40px;
+}
+.pricing-block-price{
+  background:#333333;
+  margin-top:60px;
+}
+p.basic{
+  font-size:20px;
+  padding-top:20px;
+  margin-bottom:-10px;
+}
+p.price{
+  font-size:94px;
+}
+p.price span{
+  font-size:34px;
+}
+p.free{
+  font-size:14px;
+  color:grey;
+  margin-top:10px;
+  padding-bottom:20px;
+}
+.pricing-green-line{
+  width:100%;
+  height:5px;
+  background-color:#41D395;
+}
+.pricing-ul{
+  width:100%;
+  background:white;
+}
+.pricing-ul ul{
+  list-style-type:none;
+  text-align: center;
+}
+.pricing-ul ul li{
+  padding:8px 0;
+  color:#86878B;
+  font-size:14px;
+}
+.pricing-green-popular {
+  height:36px;
+  background-color:#41D395;
+}
+.pricing-green-popular p{
+  color:white;
+  text-align:center;
+  padding-top:8px;
+  font-size:14px;
+}

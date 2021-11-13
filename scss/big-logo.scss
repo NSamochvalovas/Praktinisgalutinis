@@ -1,0 +1,43 @@
+
+.big-logo-block{
+  background:#1C1C1C;
+  width:100%;
+  height:600px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-left img{
+  width:400px;
+}
+.big-logo-right{
+  width:40%;
+  color:white;
+}
+.big-logo-right h3{
+  font-size:30px;
+}
+.logo-line{
+  width:200px;
+  height:2px;
+  background:#E27866;
+  margin:20px 0;
+
+}
+.logo-text-right{
+  display:flex;
+  margin-top:30px;
+}
+.logo-text-right-img{
+  width:70px;
+  height:50px;
+  border-radius:50%;
+  background:#E27866;
+  margin-right:10px;
+}
+.fa{
+  font-size:25px;
+  display:block;
+  text-align: center;
+  padding-top:12px;
+}

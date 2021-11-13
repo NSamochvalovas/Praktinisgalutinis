@@ -1,0 +1,62 @@
+.swiper-block{
+  height:550px;
+}
+.swiper-block h2{
+  font-size:36px;
+  text-align:center;
+  padding-top:50px;
+}
+.awesome-line-blue{
+  height:4px;
+  width:100px;
+  margin:auto;
+  background-color:#6696E2;
+  margin-top:30px;
+}
+.slider-content-text{
+  width:60%;
+  background-color:#6696E2;
+  padding:20px;
+  border-radius:5%;
+  color:white;
+  position:relative;
+}
+.slider-content-text::before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #6696E2;
+  top:92%;
+  left:10%;
+}
+.slider-img-content{
+  display:flex;
+  margin-top:15px;
+}
+.text-name{
+  padding-top:15px;
+  text-align:left;
+  padding-left:10px;
+}
+.text-name p{
+  font-size:10px;
+  color:#86878B;
+}
+/* Swiper css */
+.swiper {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.swiper-slide {
+  display: inline-block;
+  width: 500px;
+  height: 180px;
+  text-align: center;
+  margin: auto;
+  margin-top:80px;
+  margin-bottom:80px;
+}

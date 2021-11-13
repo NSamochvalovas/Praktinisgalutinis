@@ -1,0 +1,38 @@
+.bottom-form-block{
+  width:100%;
+  height:600px;
+  background:#E27866;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bottom-form-block h2{
+  text-align: center;
+}
+.bottom-form-block p{
+  text-align: center;
+  font-size:14px;
+}
+.bottom-form-block-p{
+  margin-top:50px;
+}
+.spam-bottom{
+  color:black;
+}
+.forrm-bottom{
+  margin-top:50px;
+  border-radius: 8px;
+}
+button.get-started-bottom{
+  border-radius: 8px;
+  background:#41D395;
+  border-color: #41D395;
+  font-size:15px;
+  color:white;
+  padding:15px 40px;
+  margin:25px;
+  border:none;
+}

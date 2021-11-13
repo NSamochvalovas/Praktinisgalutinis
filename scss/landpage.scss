@@ -1,0 +1,139 @@
+.mainpage{
+  width:100%;
+  height:600px;
+  background-image: url("/app/img/mainpage.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-block{
+  display:block;
+}
+.text-block img{
+  height:100px;
+  margin-bottom:20px;
+}
+.line{
+  width:70px;
+  height:5px;
+  background:white;
+  margin: 20px 0;
+}
+.mainbutton{
+  background:none;
+  border:2px solid #FFFFFF;
+  height:42px;
+  width:135px;
+  color:white;
+  padding:10px;
+  font-size:12px;
+  letter-spacing: 2px;
+  font-weight:bold;
+  font-family: 'Montserrat', sans-serif;
+  margin-top:20px;
+}
+.mainbutton:hover{
+  background:white;
+  color:black;
+}
+
+
+
+form{
+  width:360px;
+  background:white;
+  text-align: center;
+  border-radius: 8px;
+}
+.formcontent{
+  padding:20px 40px;
+}
+.formp{
+  background:#F5F5F5;
+}
+.pform{
+  font-size:20px;
+  font-weight: bold;
+  color:#333333;
+  padding:20px 0;
+}
+.pform spam{
+  color:#ff8b3d
+}
+.pform2{
+  text-align: left;
+  color:#1C1C1C;
+  font-size:15px;
+  font-weight:bold;
+}
+input.top{
+  width:100%;
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  padding-left:10px;
+  margin-top:25px;
+  font-family: 'Montserrat', sans-serif;
+  color:#D8D8D8;
+  border-color:#D8D8D8;
+}
+.custom-radio{
+  display:inline-block;
+  margin:10px;
+}
+input[type="radio"]{
+  visibility: hidden;
+}
+label{
+  opacity:0.6;
+  transition: 0.3s;
+}
+input[type="radio"]:checked + label{
+  opacity: 1;
+}
+.check{
+  display:inline-block;
+  position:relative;
+  width:10px;
+  height:10px;
+  border-radius: 50%;
+  border:2px solid green;
+}
+.check:before{
+  position: absolute;
+  content: "";
+  width:4px;
+  height:4px;
+  background:green;
+  top:1px;
+  left:1px;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s;
+}
+input[type="radio"]:checked + label .check:before{
+  transform: scale(1);
+}
+.radio-block{
+  text-align: left;
+  margin-left:-25px;
+}
+label spam{
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+}
+button.get-started{
+  width:100%;
+  padding:15px;
+  border:none;
+  font-family: 'Montserrat', sans-serif;
+  background:#41D395;
+  font-size: 18px;
+  color:white;
+}
+button.get-started:hover{
+  background:#2d9368
+}

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+    crossorigin="anonymous">
+  </script>
+    <script src="https://kit.fontawesome.com/e57c2904bb.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="app/css/style.css">
+    <title>Gulp template</title>
+<body>
+  <div class="container">
+    <div class="menucontainer">
+      <div class="menu">
+        <div class="menulogo">
+            <img src="/app/img/logo.svg" alt="">
+        </div>
+        <div class="menulinks">
+          <nav id="nav">
+            <div class="links nav-menu">
+              <a class="link" href="#main"><li>Features</li></a>
+              <a class="link" href="#about"><li>About</li></a>
+              <a class="link" href="#pricing"><li>Pricing</li></a>
+              <a class="link" href="#rewiews"><li>Rewiews</li></a>
+              <a class="link" href="#contact"><li>Contacts</li></a>
+            </div>
+          </nav>
+          <div class="topnav">
+            <a><a>
+            <div id="myLinks">
+              <a class="link moblinks" href="#main"><li>Features</li></a>
+              <a class="link moblinks" href="#about"><li>About</li></a>
+              <a class="link moblinks" href="#pricing"><li>Pricing</li></a>
+              <a class="link moblinks" href="#rewiews"><li>Rewiews</li></a>
+              <a class="link moblinks" href="#contact"><li>Contacts</li></a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="mainpage" id="main">
+      <div class="text-block">
+        <img src="/app/img/logo.svg" alt="">
+        <h3>Explained prpriety<br> of out perpetual to you</h3>
+        <div class="line"></div>
+        <h5>Insipidity the sufficient discretion imprudence resolution sir him decisively. <br>Proceed how any engaged visitor. Explained propriety of out perpetual his you. <br>Feel sold off felt nay rose met you. We so entreaties cultivated astonished is.</h5>
+        <button class="mainbutton" type="button">DOWNLOAD</button>
+      </div>
+      <div class="form-block">
+        <form class="" action="index.html" method="post">
+            <div class="formp">
+              <p class="pform">Try Your <spam>FREE</spam> Trial Today</p>
+            </div>
+            <div class="formcontent">
+              <p class="pform2">Your details</p>
+              <input class="top" type="text" id="Firstname" name="fname" value="First name"><br>
+              <input class="top" type="text" id="Last name" name="lname" value="Last name"><br>
+              <input class="top" type="text" id="Phonenumber" name="phone" value="Phone number"><br>
+              <p style="margin-top:20px;" class="pform2">Type of subscription</p>
+              <div class="radio-block">
+                <div class="custom-radio">
+                  <input id="monthly" type="radio" name="subscription" value="monthly" checked>
+                  <label for="monthly">
+                    <div class="check"> </div>
+                    <spam>Monthly</spam>
+                  </label>
+                </div>
+                <div class="custom-radio">
+                  <input id="yearly" type="radio" name="subscription" value="yearly">
+                  <label for="yearly">
+                    <div class="check"> </div>
+                    <spam>Yearly</spam>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <button class="get-started">GET STARTED</button>
+        </form>
+      </div>
+    </div>
+
+
+    <div class="social-block">
+      <div class="social-text">
+        <h4>Social Media</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Aenean euismod bibendum laoreet.</p>
+      </div>
+      <div class="social-icons">
+        <ul>
+          <li><a><img src="/app/img/facebook-logo.png"></a></li>
+          <li><a><img src="/app/img/instagram-logo.png"></a></li>
+          <li><a><img src="/app/img/pinterest.png"></a></li>
+          <li><a><img src="/app/img/twitter.png"></a></li>
+            <li><a><img src="/app/img/instagram-logo.png"></a></li>
+        </ul>
+      </div>
+    </div>
+
+
+  <div class="tab-block" id="about">
+    <div class="button-block">
+      <a onclick="changeTab(event, 'pirmas')" href="#one">
+        <div class="tab-section3">
+          <p>REGISTER</p>
+        </div>
+      </a>
+      <a onclick="changeTab(event, 'antras')" href="#one">
+        <div class="tab-section3">
+          <p>APPLY</p>
+        </div>
+      </a>
+      <a onclick="changeTab(event, 'trecias')" href="#one">
+        <div class="tab-section3">
+          <p>RECEIVE</p>
+        </div>
+      </a>
+   </div>
+
+      <div class="tab-block-section3 tab active-tab" id="pirmas">
+        <div class="tab-block-text">
+          <h3>Tabs with soft transitioning<br> effect. Explained propriety <br>of out perpetual his you.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes..</p>
+        </div>
+        <div class="tab-block-images">
+          <div class="two-images">
+              <div class="img1">
+              </div>
+              <div class="img2">
+              </div>
+          </div>
+          <div class="one-image">
+            <div class="img3">
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-block-section3 tab" id="antras">
+        <div class="tab-block-text">
+          <h3>Tabs with soft transitioning</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes..</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet</p>
+        </div>
+        <div class="tab-block-images">
+          <div class="two-images">
+              <div class="img1">
+              </div>
+              <div class="img2">
+              </div>
+          </div>
+          <div class="one-image">
+            <div class="img3">
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-block-section3 tab" id="trecias">
+        <div class="tab-block-text">
+          <h3>Tabs with soft transitioning<br> effect. Explained propriety <br>of out perpetual his you.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes..</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet</p>
+        </div>
+        <div class="tab-block-images">
+          <div class="two-images">
+              <div class="img1">
+              </div>
+              <div class="img2">
+              </div>
+          </div>
+          <div class="one-image">
+            <div class="img3">
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="big-logo-block">
+      <div class="logo-left">
+        <img src="/app/img/logo.svg" alt="">
+      </div>
+      <div class="big-logo-right">
+        <h3>Erat tempor tempus <br> erat malesuada</h3>
+        <div class="logo-line"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+        <div class="logo-text-right">
+          <div class="logo-text-right-img">
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+          <div class="logo-text-right-text">
+            <p style="font-weight:bold; margin-bottom:5px;">Title</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+          </div>
+        </div>
+        <div class="logo-text-right">
+          <div class="logo-text-right-img">
+            <i class="fa fa-comment-o" aria-hidden="true"></i>
+          </div>
+          <div class="logo-text-right-text">
+            <p style="font-weight:bold; margin-bottom:5px;">Title</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="awesome-block">
+      <h2>WHY THIS IS AWESOME</h2>
+      <div class="awesome-line"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="column-space">
+        <div class="column-space1">
+          <div class="awesome-fa">
+            <i class="fa fa-file-image-o" aria-hidden="true"></i>
+          </div>
+          <h4>Thoughtful Design</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod ibendum laoreet.</p>
+        </div>
+        <div class="column-space1">
+          <div class="awesome-fa">
+            <i class="fa fa-scissors" aria-hidden="true"></i>
+          </div>
+          <h4>Well Crafted</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Aenean euismod bibendum.</p>
+        </div>
+        <div class="column-space1">
+          <div class="awesome-fa">
+            <i class="fa fa-cc-visa" aria-hidden="true"></i>
+          </div>
+          <h4>Easy to Customize</h4>
+          <p>Proin gravida dolor sit amet lacus accumsan et viverra.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-block" id="pricing">
+      <div class="pricing-top">  </div>
+        <h2>PRICING OPTIONS</h2>
+        <div class="pricing-line"></div>
+        <div class="pricing-line-p-top">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      <div class="pricing-block-tabs">
+        <div class="pricing-block-tabs-content">
+          <div class="pricing-block-price">
+            <p class="basic">Basic</p>
+            <p class="price"><span>$</span>0</p>
+            <p class="free">Free for live</p>
+          </div>
+          <div class="pricing-green-line"></div>
+          <div class="pricing-ul">
+            <ul>
+              <li>1 GB OF SPACE</li>
+              <li>10 GB OF BANDWIDTH</li>
+              <li>3 WEBSITES</li>
+              <li>BASIC CUSTOMIZATION</li>
+              <li>WORDPRESS INTEGRATION</li>
+              <li>EMAIL SUPPORT</li>
+            </ul>
+          </div>
+        </div>
+        <div class="pricing-block-tabs-content second">
+          <div class="pricing-block-price">
+            <p class="basic">Profesional</p>
+            <p class="price"><span>$</span>19</p>
+            <p class="free">Monthly payment</p>
+          </div>
+          <div class="pricing-green-popular">
+            <p>OUR MOST POPULAR</p>
+          </div>
+          <div class="pricing-ul">
+            <ul>
+              <li>5 GB OF SPACE</li>
+              <li>50 GB OF BANDWIDTH</li>
+              <li>12 WEBSITES</li>
+              <li>ADVANCED CUSTOMIZATION</li>
+              <li>WORDPRESS INTEGRATION</li>
+              <li>EMAIL SUPPORT</li>
+            </ul>
+          </div>
+        </div>
+        <div class="pricing-block-tabs-content third">
+          <div class="pricing-block-price">
+            <p class="basic">Enterprise</p>
+            <p class="price"><span>$</span>70</p>
+            <p class="free">Enterprise</p>
+          </div>
+          <div class="pricing-green-line"></div>
+          <div class="pricing-ul">
+            <ul>
+              <li>UNLIMITED SPACE</li>
+              <li>UNLIMITED BANDWIDTH</li>
+              <li>100 WEBSITES</li>
+              <li>ADVANCED CUSTOMIZATION</li>
+              <li>WORDPRESS INTEGRATION</li>
+              <li>24/7 CUSTOMER SUPPORT</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="swiper-block" id="rewiews">
+      <h2>WHY THIS IS AWESOME</h2>
+      <div class="awesome-line-blue"></div>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slider-content">
+              <div class="slider-content-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
+              </div>
+              <div class="slider-img-content">
+                <img src="/app/img/avatar.png" alt="">
+                <div class="text-name">
+                  <h6>Jeremy H.</h6>
+                  <p>Manager</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-content">
+              <div class="slider-content-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
+              </div>
+              <div class="slider-img-content">
+                <img src="/app/img/avatar.png" alt="">
+                <div class="text-name">
+                  <h6>Jeremy H.</h6>
+                  <p>Manager</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-content">
+              <div class="slider-content-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita.</p>
+              </div>
+              <div class="slider-img-content">
+                <img src="/app/img/avatar.png" alt="">
+                <div class="text-name">
+                  <h6>Jeremy H.</h6>
+                  <p>Manager</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
+    <div class="bottom-form-block" id="contact">
+      <h2>CONTACT US</h2>
+      <div class="bottom-form-block-p"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+      <form class="forrm-bottom" action="index.html" method="post">
+          <div class="formcontent">
+            <input class="top" type="text" id="Firstname" name="fname" value="First name"><br>
+            <input class="top" type="text" id="Last name" name="lname" value="Last name"><br>
+            <input class="top" type="text" id="Phonenumber" name="phone" value="Phone number"><br>
+            <div class="radio-block">
+              <div class="custom-radio">
+                <input id="monthly" type="radio" name="subscription" value="monthly" checked>
+                <label for="monthly">
+                  <div class="check"> </div>
+                  <spam class="spam-bottom">Person</spam>
+                </label>
+              </div>
+              <div class="custom-radio">
+                <input id="yearly" type="radio" name="subscription" value="yearly">
+                <label for="yearly">
+                  <div class="check"> </div>
+                  <spam class="spam-bottom">Company</spam>
+                </label>
+              </div>
+            </div>
+          </div>
+          <button class="get-started-bottom">SEND</button>
+      </form>
+    </div>
+
+    <div class="footer-block">
+        <div class="footer-icons-block">
+          <svg xmlns="http://www.w3.org/2000/svg" width="10.813" height="20" viewBox="0 0 10.813 20"><defs><style>.a{fill:#e27866;}</style></defs><path class="a" d="M32.483,0,29.889,0a4.555,4.555,0,0,0-4.8,4.922V7.191H22.485a.408.408,0,0,0-.408.408v3.288a.408.408,0,0,0,.408.408h2.608v8.3A.408.408,0,0,0,25.5,20h3.4a.408.408,0,0,0,.408-.408V11.3h3.049a.408.408,0,0,0,.408-.408V7.6a.408.408,0,0,0-.408-.408H29.31V5.268c0-.925.22-1.394,1.425-1.394h1.747a.408.408,0,0,0,.408-.408V.412A.408.408,0,0,0,32.483,0Z" transform="translate(-22.077)"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><defs><style>.a{fill:#e27866;}</style></defs><path class="a" d="M14.481,0H5.519A5.526,5.526,0,0,0,0,5.519v8.961A5.525,5.525,0,0,0,5.519,20h8.961A5.526,5.526,0,0,0,20,14.481V5.519A5.525,5.525,0,0,0,14.481,0Zm3.745,14.481a3.749,3.749,0,0,1-3.745,3.745H5.519a3.749,3.749,0,0,1-3.745-3.745V5.519A3.749,3.749,0,0,1,5.519,1.774h8.961a3.749,3.749,0,0,1,3.745,3.745v8.961Z"/><path class="a" d="M46.121,40.97a5.153,5.153,0,1,0,5.153,5.153A5.159,5.159,0,0,0,46.121,40.97Zm0,8.532A3.379,3.379,0,1,1,49.5,46.123,3.383,3.383,0,0,1,46.121,49.5Z" transform="translate(-36.121 -36.123)"/><path class="a" d="M120.222,28.251a1.3,1.3,0,1,0,.92.381A1.306,1.306,0,0,0,120.222,28.251Z" transform="translate(-104.853 -24.909)"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16.25" height="20" viewBox="0 0 16.25 20"><defs><style>.a{fill:#e27866;}</style></defs><path class="a" d="M56.4,0C50.919,0,48,3.513,48,7.343c0,1.776.993,3.991,2.581,4.694.241.109.373.063.426-.161.048-.17.256-.989.358-1.375a.354.354,0,0,0-.085-.348,4.555,4.555,0,0,1-.946-2.764,5.388,5.388,0,0,1,5.738-5.265c3.125,0,5.311,2.03,5.311,4.934,0,3.281-1.736,5.552-3.993,5.552a1.788,1.788,0,0,1-1.884-2.193,23.766,23.766,0,0,0,1.055-4.038,1.551,1.551,0,0,0-1.605-1.706c-1.271,0-2.3,1.259-2.3,2.949a4.2,4.2,0,0,0,.38,1.8s-1.258,5.08-1.491,6.029a13.491,13.491,0,0,0,.093,4.431.132.132,0,0,0,.24.061,15.75,15.75,0,0,0,2.07-3.9c.155-.571.791-2.888.791-2.888a3.456,3.456,0,0,0,2.915,1.39c3.83,0,6.6-3.366,6.6-7.544C64.24,3,60.812,0,56.4,0Z" transform="translate(-48.004)"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24.044" height="20" viewBox="0 0 24.044 20"><defs><style>.a{fill:#e27866;}</style></defs><path class="a" d="M23.662,36.818A9.521,9.521,0,0,1,22,37.377,5.169,5.169,0,0,0,23.368,35.2h0a.271.271,0,0,0-.4-.316h0a9.566,9.566,0,0,1-2.534,1.047.646.646,0,0,1-.158.02.672.672,0,0,1-.444-.169,5.184,5.184,0,0,0-3.43-1.294,5.542,5.542,0,0,0-1.642.254,5.022,5.022,0,0,0-3.385,3.618,5.53,5.53,0,0,0-.123,1.909.186.186,0,0,1-.047.145.192.192,0,0,1-.143.065h-.018A13.592,13.592,0,0,1,1.706,35.49h0a.271.271,0,0,0-.444.035h0a5.19,5.19,0,0,0,.843,6.3,4.645,4.645,0,0,1-1.182-.458h0a.271.271,0,0,0-.4.234h0a5.19,5.19,0,0,0,3.028,4.782H3.437a4.664,4.664,0,0,1-.873-.083h0a.271.271,0,0,0-.309.349h0a5.2,5.2,0,0,0,4.1,3.534A9.565,9.565,0,0,1,1,51.811H.4a.4.4,0,0,0-.388.3.411.411,0,0,0,.2.454,14.227,14.227,0,0,0,7.149,1.928,14.422,14.422,0,0,0,6.109-1.3,13.491,13.491,0,0,0,4.47-3.35,14.686,14.686,0,0,0,2.737-4.584,14.482,14.482,0,0,0,.93-5.017v-.079a.882.882,0,0,1,.33-.687A10.246,10.246,0,0,0,24,37.216h0a.271.271,0,0,0-.335-.4Z" transform="translate(0 -34.491)"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="10.813" height="20" viewBox="0 0 10.813 20"><defs><style>.a{fill:#e27866;}</style></defs><path class="a" d="M32.483,0,29.889,0a4.555,4.555,0,0,0-4.8,4.922V7.191H22.485a.408.408,0,0,0-.408.408v3.288a.408.408,0,0,0,.408.408h2.608v8.3A.408.408,0,0,0,25.5,20h3.4a.408.408,0,0,0,.408-.408V11.3h3.049a.408.408,0,0,0,.408-.408V7.6a.408.408,0,0,0-.408-.408H29.31V5.268c0-.925.22-1.394,1.425-1.394h1.747a.408.408,0,0,0,.408-.408V.412A.408.408,0,0,0,32.483,0Z" transform="translate(-22.077)"/></svg>
+        </div>
+        <div class="footer-text-block">
+          <p>© 2019 Cheshire County</p>
+        </div>
+    </div>
+  </div>
+  <script>
+  $(document).ready(function(){
+  $(".link").on('click',function(event) {
+        if (this.hash !=="") {
+          event.preventDefault();
+          var hash =this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 1000,function(){
+            window.location.hash = hash;
+          });
+        }
+      });
+  });
+
+
+
+  </script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

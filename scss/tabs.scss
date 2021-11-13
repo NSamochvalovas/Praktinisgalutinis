@@ -1,0 +1,141 @@
+.tab-block{
+  width:100%;
+  height:600px;
+  position:relative;
+  background:linear-gradient(rgba(102,150,226,.5), rgba(226,120,102,.5)), url("/app/img/christoffer-engstrom-503481-unsplash@2x.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tab-block{
+  padding:0 100px;
+}
+.tab-section3{
+  width:150px;
+  height:150px;
+  background:#A37169;
+  margin:20px 0;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  color:#FFFFFF;
+  opacity:0.5;
+}
+.tab-section3:hover{
+  background:#E27866;
+    opacity:1;
+}
+.activetabcss{
+  background:#E27866;
+    opacity:1;
+}
+.tab-section3 p{
+  transform: rotate(-45deg);
+}
+.tab-block-text{
+  margin:0 30px;
+}
+.tab-block-text p{
+  margin:20px 0;
+  color:white;
+}
+.tab-block-section3{
+  display:none;
+  animation: fadeIn linear 2s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+.tab-block-section3.active-tab{
+  display:flex;
+}
+.two-images{
+  display:flex;
+}
+.img1{
+  width:190px;
+  height:190px;
+  background:url("/app/img/first.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.img1:hover{
+  background:linear-gradient(rgba(166,120,102,.5), rgba(226,120,102,.5)), url("/app/img/first.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.img1:before{
+  content: "Explore";
+  color:white;
+  font-size:24px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top:40%;
+  display:none;
+}
+.img1:hover:before{
+  display:inherit;
+}
+.img2{
+  width:190px;
+  height:190px;
+  background:url("/app/img/second.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position:relative;
+}
+.img2:hover{
+  background:linear-gradient(rgba(166,120,102,.5), rgba(226,120,102,.5)), url("/app/img/second.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.img2:before{
+  content: "Explore";
+  color:white;
+  font-size:24px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top:40%;
+  display:none;
+}
+.img2:hover:before{
+  display:inherit;
+}
+.img3{
+  width:380px;
+  height:190px;
+  background:url("/app/img/third.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  position:relative;
+}
+.img3:hover{
+  background:linear-gradient(rgba(166,120,102,.5), rgba(226,120,102,.5)), url("/app/img/third.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+.img3:before{
+  content: "Explore";
+  color:white;
+  font-size:24px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top:20%;
+  display:none;
+}
+.img3:hover:before{
+  display:inherit;
+}
